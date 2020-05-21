@@ -12,11 +12,6 @@ $(document).ready(function(){
         $('.overlay').fadeIn(500);
         $('.modal').slideDown(700);
     })
-    $(document).on('click', function (e){
-        var d = $('.modal');
-        if (!d.is(e.target)){
-            $('.modal').slideUp(500);
-            $('.overlay').fadeOut(700);
-        }
-    });
+  
+  
 });
